@@ -17,8 +17,9 @@ export default function RootLayout({
         <Header/>
         <main className='w-full min-h-screen px-4 py-8 bg-zinc-400 '>
         {children}
-        
-        </main></body>
+        <p className='bg-black/80 flex place-content-center items-center gap-2 text-white font-medium re py-8 px-4 w-full'>CopyRight@ By Muhammad Waheed <img src="/w3.jpeg" alt="" className='w-16 h-16 rounded-full ' /> </p>
+        </main>
+        </body>
     </html>
   )
 }

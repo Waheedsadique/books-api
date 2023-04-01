@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Header() {
 
     return (
-        <header className="w-full flex justify-around items-center  bg-black/60 py-2 px-4 border-b border-b-[#0d1a31]">
+        <header className="w-full flex justify-around items-center bg-black/80 py-2 px-4 border-b border-b-[#0d1a31]">
           <Link href="/" className="font-medium text-white">Book API</Link>
           <Link
             href="/register"
