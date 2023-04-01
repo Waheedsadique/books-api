@@ -1,4 +1,5 @@
 import './globals.css'
+import Header from '@/views/Header'
 
 export const metadata = {
   title: 'Create Next App',
@@ -12,7 +13,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header/>
+        <main className='w-full min-h-screen px-4 py-8 bg-zinc-400 '>
+        {children}
+        
+        </main></body>
     </html>
   )
 }
